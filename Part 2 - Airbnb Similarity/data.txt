@@ -1,6 +1,14 @@
 NYC Airbnb Similar Listings Model
 
 Data
-To create this model, we will be leveraging two sources of data. The first is Inside Airbnb, an independent platform that gathers, aggregates, and cleanses data scraped from the Airbnb website. All datasets are updated monthly to ensure accuracy. The dataset we will be using has slightly over 50,000 listings spread across New York City, and 106 features about each listing. The features include information about the home itself such as amenities, the host, listing policies, and reviews. To make the data more usable, we will be performing various feature engineering and selection to get rid of unnecessary information and make the data more usable. 
+To create this model, we will be leveraging two sources of data. The first is Inside Airbnb, an independent platform 
+that gathers, aggregates, and cleanses data scraped from the Airbnb website. All datasets are updated monthly to
+ensure accuracy. The dataset we will be using has slightly over 50,000 listings spread across New York City, and 
+106 features about each listing. The features include information about the home itself such as amenities, the host, 
+listing policies, and reviews. To make the data more usable, we will be performing various feature engineering and
+selection to get rid of unnecessary information and make the data more usable. 
 
-The second source of data is the Foursquare location data, which we can access with the Foursquare API. This data is crowdsourced by individuals who use Foursquare to check into places or leave reviews. We can use this data to get information about the neighborhood of a particular Airbnb listing, specifically focusing on what amenities are locating near the home. These amenities could include parks, restaurants, recreation centers, etc. Ultimately, we can combine the Airbnb data and Foursquare data to get a complete picture about a listing and find similar listings. 
+The second source of data is the Foursquare location data, which we can access with the Foursquare API. This data 
+is crowdsourced by individuals who use Foursquare to check into places or leave reviews. We can use this data to get information about the neighborhood of a particular Airbnb listing, specifically focusing on what amenities are locating
+near the home. These amenities could include parks, restaurants, recreation centers, etc. Ultimately, we can combine 
+the Airbnb data and Foursquare data to get a complete picture about a listing and find similar listings. 
