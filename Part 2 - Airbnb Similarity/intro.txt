@@ -1,4 +1,14 @@
 NYC Airbnb Similar Listings Model
 
 Introduction
-Years ago, online retail platforms adopted a new widget designed to increase both consumer engagement with goods and the probability of making a sale: a ‘similar items’ scrollbar. This widget displays basic information about products related to the one a consumer is viewing such as an image, name, and price. As a result, a consumer that is dissatisfied with the product on the page can easily browse other products, rather than closing the page. This keeps consumers browsing longer and helps them find the item they need. A similar tool can be introduced to the hospitality industry. That is, we can develop a ‘similar listings’ widget to display on Airbnb, directly on the information page of a particular home. This will enable consumers to more easily find the perfect home for their trip and reduce customer frustration. As a result, Airbnb hosts and shareholders can expect to see an increase in bookings and profits. The basis of such an app is a model that clusters together similar listings based on a variety of features. In this project, we will leverage Airbnb data and the Foursquare API to create a this model for NYC listings. This can be used as a Beta before reproducing for other cities. 
+Years ago, online retail platforms adopted a new widget designed to increase both consumer engagement with goods 
+and the probability of making a sale: a ‘similar items’ scrollbar. This widget displays basic information about 
+products related to the one a consumer is viewing such as an image, name, and price. As a result, a consumer that 
+is dissatisfied with the product on the page can easily browse other products, rather than closing the page.
+This keeps consumers browsing longer and helps them find the item they need. A similar tool can be introduced to
+the hospitality industry. That is, we can develop a ‘similar listings’ widget to display on Airbnb, directly on 
+the information page of a particular home. This will enable consumers to more easily find the perfect home for their
+trip and reduce customer frustration. As a result, Airbnb hosts and shareholders can expect to see an increase in bookings
+and profits. The basis of such an app is a model that clusters together similar listings based on a variety of features.
+In this project, we will leverage Airbnb data and the Foursquare API to create a this model for NYC listings. This can
+be used as a Beta before reproducing for other cities. 
